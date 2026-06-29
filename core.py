@@ -101,7 +101,10 @@ def register_handlers(dp):
     dp.callback_query.register(remove_phrase, F.data == "remove_phrase")
     dp.callback_query.register(start_add_phrase, F.data == "add_phrase")
     dp.callback_query.register(cancel_add, F.data == "cancel_add")
-    
+    dp.callback_query.register(admin_ranks_list, F.data == "admin_ranks")
+    dp.callback_query.register(show_rank_phrases, F.data.startswith("rank_"))
+    dp.callback_query.register(back_to_sms, F.data == "back_to_sms")
+
     # Магазин
     dp.callback_query.register(process_shop, F.data.in_(["buy_shield", "use_shield"]))
 
@@ -537,3 +540,50 @@ async def check_inactive_users(bot: Bot):
                         await bot.send_photo(user['user_id'], photo=FSInputFile(meme_path))
                     else:
                         await bot.send_message(user['user_id'], "💔 Стрик сброшен. Начни заново.")
+
+async def admin_ranks_list(callback: CallbackQuery):
+    """Показывает список всех рангов (из файла ranksms.txt)"""
+    # Получаем все уникальные ранги из БД
+    async with aiosqlite.connect(DB_PATH) as db:
+        cursor = await db.execute(
+            "SELECT DISTINCT mood FROM phrases WHERE trigger_type = 'RANK' AND is_active = 1"
+        )
+        rows = await cursor.fetchall()
+        ranks = [row[0] for row in rows]
+    
+    if not ranks:
+        return await callback.message.edit_text("🏆 Пока нет ранговых фраз. Добавь их в ranksms.txt и перезапусти бота.")
+    
+    # Создаём кнопки для каждого ранга
+    kb = InlineKeyboardMarkup(inline_keyboard=[])
+    for rank in ranks:
+        kb.inline_keyboard.append([InlineKeyboardButton(text=rank, callback_data=f"rank_{rank}")])
+    kb.inline_keyboard.append([InlineKeyboardButton(text="⬅️ Назад", callback_data="back_to_sms")])
+    
+    await callback.message.edit_text("🏆 Выбери ранг, чтобы посмотреть его фразы:", reply_markup=kb)
+
+async def show_rank_phrases(callback: CallbackQuery):
+    """Показывает фразы для выбранного ранга"""
+    rank_name = callback.data.replace("rank_", "")
+    phrases = await get_phrases_by_trigger("RANK", limit=50, mood=rank_name)
+    
+    text = f"🏆 Фразы для ранга '{rank_name}':\n\n"
+    for i, p in enumerate(phrases, 1):
+        text += f"{i}. {p['phrase_text']} {p['emoji'] or ''}\n"
+    if not phrases:
+        text += "Пока нет фраз для этого ранга."
+    
+    kb = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="⬅️ Назад к списку рангов", callback_data="admin_ranks")]
+    ])
+    await callback.message.edit_text(text, reply_markup=kb)
+
+async def back_to_sms(callback: CallbackQuery):
+    """Возвращает в главное меню /sms"""
+    kb = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text="📝 Фразы", callback_data="admin_phrases")],
+        [InlineKeyboardButton(text="🖼️ Картинки без текста", callback_data="admin_images")],
+        [InlineKeyboardButton(text="📝🖼️ Картинки с текстом", callback_data="admin_memes")],
+        [InlineKeyboardButton(text="🏆 Фразы рангов", callback_data="admin_ranks")]
+    ])
+    await callback.message.edit_text("📋 Панель управления фразами:", reply_markup=kb)
