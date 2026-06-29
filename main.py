@@ -1,10 +1,13 @@
 import os
-import asyncio
+import random
 import logging
-from aiogram import Bot, Dispatcher
-from aiogram.types import BotCommand
-from dotenv import load_dotenv
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
+import aiosqlite  # <--- ДОБАВИТЬ
+from datetime import datetime, timedelta
+from aiogram import F, Bot
+from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, BotCommand, FSInputFile
+from aiogram.filters import Command, CommandObject, BaseFilter
+from aiogram.fsm.context import FSMContext
+from aiogram.fsm.state import State, StatesGroup
 
 # Импорт из твоих файлов
 from database import initialize_database
