@@ -951,3 +951,11 @@ async def back_to_sms(callback: CallbackQuery):
         [InlineKeyboardButton(text="🔄 Синхронизировать файлы", callback_data="sync_files")]
     ])
     await callback.message.edit_text("📋 Панель управления контентом:", reply_markup=kb)
+
+# ===== ОТМЕНА ДОБАВЛЕНИЯ =====
+
+async def cancel_add(callback: CallbackQuery, state: FSMContext):
+    await state.clear()
+    if callback.from_user.id in temp_phrases:
+        del temp_phrases[callback.from_user.id]
+    await callback.message.edit_text("❌ Добавление отменено.")
