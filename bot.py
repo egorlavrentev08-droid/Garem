@@ -44,7 +44,8 @@ async def main():
         BotCommand(command="/name", description="Задать имя"),
         BotCommand(command="/me", description="Анкета"),
         BotCommand(command="/profile", description="Анкета"),
-        BotCommand(command="/shop", description="Магазин")
+        BotCommand(command="/shop", description="Магазин"),
+        BotCommand(command="/sms", description="Управление контентом (админ)"),
     ])
     
     scheduler.add_job(
