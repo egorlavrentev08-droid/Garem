@@ -1,6 +1,7 @@
 import os
 import random
 import logging
+import aiosqlite
 from datetime import datetime, timedelta
 from aiogram import F, Bot
 from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, BotCommand, FSInputFile
