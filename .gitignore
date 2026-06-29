@@ -1,0 +1,21 @@
+# Файлы окружения
+.env
+.env.local
+.env.prod
+
+# Системные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.iml
