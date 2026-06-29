@@ -1,13 +1,10 @@
 import os
-import random
+import asyncio
 import logging
-import aiosqlite  # <--- ДОБАВИТЬ
-from datetime import datetime, timedelta
-from aiogram import F, Bot
-from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton, BotCommand, FSInputFile
-from aiogram.filters import Command, CommandObject, BaseFilter
-from aiogram.fsm.context import FSMContext
-from aiogram.fsm.state import State, StatesGroup
+from aiogram import Bot, Dispatcher
+from aiogram.types import BotCommand
+from dotenv import load_dotenv  # <--- ВОТ ЭТА СТРОКА БЫЛА ПРОПУЩЕНА
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 # Импорт из твоих файлов
 from database import initialize_database
@@ -59,7 +56,7 @@ async def main():
         BotCommand(command="/name", description="Задать имя"),
         BotCommand(command="/me", description="Анкета"),
         BotCommand(command="/profile", description="Анкета"),
-        BotCommand(command="/shop", description="Магазин")
+        BotCommand(command="/shop", description="Магазин"),
     ])
     
     # Запускаем планировщик для проверки бездействия
