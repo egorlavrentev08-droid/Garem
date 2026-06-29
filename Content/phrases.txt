@@ -1,0 +1,176 @@
+# ==============================
+# КОРПУС 1: 1 ДЕНЬ НЕАКТИВА (1_DAY_INACTIVE)
+# ==============================
+
+1_DAY_INACTIVE|ANXIOUS|Ты где был целые сутки? Мы уже ищем тебя по всем углам|😰
+1_DAY_INACTIVE|ANXIOUS|Один день тишины — это уже перебор, пиши давай|😒
+1_DAY_INACTIVE|ANXIOUS|Ты не говорил с нами почти день, у тебя всё хорошо?|🤨
+1_DAY_INACTIVE|ANXIOUS|За сутки можно было найти 5 секунд, чтобы черкнуть пару слов|😑
+1_DAY_INACTIVE|ANXIOUS|Прошёл целый день, а от тебя ни слуху ни духу|📣
+1_DAY_INACTIVE|ANXIOUS|Мы уже сутки как отрезаны от тебя, дай знать, что ты с нами|💔
+1_DAY_INACTIVE|ANXIOUS|Уже день прошёл, ты чего молчишь как рыба?|🫵
+1_DAY_INACTIVE|ANXIOUS|За 24 часа ты ни разу не написал. Это что за режим?|😒
+1_DAY_INACTIVE|ANXIOUS|Сутки прошли, а ты даже не отметился. Совсем страх потерял?|👺
+1_DAY_INACTIVE|ANXIOUS|Где ты бродишь уже день? У нас тут работа стоит|🤨
+1_DAY_INACTIVE|ANXIOUS|Целый день тишины — это не смешно. Отзовись|😰
+1_DAY_INACTIVE|ANXIOUS|Прошло больше 20 часов, а твоего голоса нет|😑
+1_DAY_INACTIVE|ANXIOUS|Ты чего, в запой ушёл на сутки?|🫵
+1_DAY_INACTIVE|ANXIOUS|За день можно было сто раз написать. Где ты?|😡
+1_DAY_INACTIVE|ANXIOUS|Уже почти сутки, а ты пропал. Мы волнуемся|💔
+1_DAY_INACTIVE|ANXIOUS|Где тебя носит уже целый день?|😒
+1_DAY_INACTIVE|ANXIOUS|Ты не выходил на связь сутки — это уже нарушение режима|⚠️
+1_DAY_INACTIVE|ANXIOUS|Одни сутки без вестей. Ты нас игнорируешь?|👺
+1_DAY_INACTIVE|ANXIOUS|Я смотрю на часы: почти день молчания. Совесть имей|😑
+1_DAY_INACTIVE|ANXIOUS|Ты там живой вообще? Сутки — это срок|😰
+
+1_DAY_INACTIVE|MEME_THREAT|Ты правда решил, что один пропущенный день останется незамеченным?|
+1_DAY_INACTIVE|MEME_THREAT|Я специально не писал первым. Хотел посмотреть, насколько тебя хватит.|
+1_DAY_INACTIVE|MEME_THREAT|Не переживай, я уже добавил твоё имя в список «завтра начну».|
+1_DAY_INACTIVE|MEME_THREAT|Каждый пропущенный день делает меня чуточку хитрее.|
+1_DAY_INACTIVE|MEME_THREAT|Ты не проиграл. Пока что.|
+1_DAY_INACTIVE|MEME_THREAT|Ты сейчас отдыхаешь. А твой стрик — нет.|
+1_DAY_INACTIVE|MEME_THREAT|Я всё понимаю… но оправдания были интереснее.|
+1_DAY_INACTIVE|MEME_THREAT|Сегодня у тебя ещё есть шанс всё исправить.|
+1_DAY_INACTIVE|MEME_THREAT|Я могу ждать очень долго. Я всё-таки лис.|
+1_DAY_INACTIVE|MEME_THREAT|Я не угрожаю. Я просто напоминаю с энтузиазмом.|
+
+1_DAY_INACTIVE|ABSURD|Я уже рассказал белкам, что ты сегодня не пришёл.|
+1_DAY_INACTIVE|ABSURD|Лес начал подозревать, что ты сдался.|
+1_DAY_INACTIVE|ABSURD|Я отменил собрание сов ради этого.|
+1_DAY_INACTIVE|ABSURD|Даже вороны были более организованными.|
+1_DAY_INACTIVE|ABSURD|Моя статистика сейчас выглядит как трагедия.|
+1_DAY_INACTIVE|ABSURD|Где-то сейчас грустит один пиксель моего хвоста.|
+1_DAY_INACTIVE|ABSURD|Я три раза обновил страницу. Это было неловко.|
+1_DAY_INACTIVE|ABSURD|Ты заставил календарь усомниться в своих датах.|
+1_DAY_INACTIVE|ABSURD|Мы с деревьями начали переживать.|
+1_DAY_INACTIVE|ABSURD|Луна уже спросила, почему тебя нет.|
+
+1_DAY_INACTIVE|BLACK_HUMOR|Твой стрик сейчас держится на чистой силе воли.|
+1_DAY_INACTIVE|BLACK_HUMOR|Моё терпение обновляется раз в сутки.|
+1_DAY_INACTIVE|BLACK_HUMOR|Я уже почти оформил твоё исчезновение.|
+1_DAY_INACTIVE|BLACK_HUMOR|Ты заставляешь меня сомневаться в человечестве.|
+1_DAY_INACTIVE|BLACK_HUMOR|Если бы за пропущенные дни платили, ты был бы миллионером.|
+1_DAY_INACTIVE|BLACK_HUMOR|Моё доверие сейчас загружается… 3%.|
+1_DAY_INACTIVE|BLACK_HUMOR|Мне не нужны причины. Мне нужны дни.|
+1_DAY_INACTIVE|BLACK_HUMOR|Один пропуск — случайность. Два — сюжет.|
+1_DAY_INACTIVE|BLACK_HUMOR|Не проверяй предел моего терпения.|
+1_DAY_INACTIVE|BLACK_HUMOR|Сегодня ты победил. Завтра посмотрим.|
+
+# ==============================
+# КОРПУС 2: 2+ ДНЯ НЕАКТИВА (2_PLUS_DAYS_INACTIVE)
+# ==============================
+
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты что, совсем забыл? Ты уже несколько дней не писал!|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое время прошло, а ты даже не извинился|😒
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты пропал на неделю. У тебя задача — писать, а не прятаться|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Сколько можно игнорировать чат? Ты забыл, кто ты тут?|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Уже несколько суток, а я всё жду твоих гениальных мыслей|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты где ходишь уже который день? У нас боевая обстановка!|⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое молчание — признак безответственности. Ты струсил?|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты не появлялся так долго, что я уже забыл, как ты пишешь|🤨
+2_PLUS_DAYS_INACTIVE|ANGRY|Несколько дней прошло. Ты решил, что мы без тебя обойдёмся?|😒
+2_PLUS_DAYS_INACTIVE|ANGRY|Где ты шляешься столько времени? У тебя простейшая задача|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты что, в космос улетел на долгие годы?|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|Уже столько дней, а твой статус — "был вчера". Позор|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое время тишины — это неуважение к коллективу|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты пропал надолго. Может, тебя похитили? Или просто лень?|🤨
+2_PLUS_DAYS_INACTIVE|ANGRY|Я уже сбился со счёту, сколько дней ты молчишь|😰
+2_PLUS_DAYS_INACTIVE|ANGRY|За такое долгое отсутствие тебя нужно штрафовать|⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты совсем рехнулся? Где тебя носит всё это время?|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Прошло много времени, а ты даже не поинтересовался делами|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты считаешь, что можно не писать так долго?|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое время мы тут пашем, а ты в кусты|😒
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты пропал на несколько дней — это провал|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|Где ты был всё это долгое время? В подполье?|🤨
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты забыл, как выглядит клавиатура? Уже много дней тишины|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|За столько дней можно было выучить китайский, но ты молчишь|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты издеваешься? Долгое отсутствие — это саботаж|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Несколько дней ада без твоих сообщений|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты там окопался надолго? Пиши немедленно|📣
+2_PLUS_DAYS_INACTIVE|ANGRY|Такое ощущение, что ты в бегах уже который день|😰
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты не появлялся долго, я думал, тебя заблокировали|😒
+2_PLUS_DAYS_INACTIVE|ANGRY|За все эти дни ты ни разу не вспомнил о нас|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты слишком долго держишь паузу, это подозрительно|🤨
+2_PLUS_DAYS_INACTIVE|ANGRY|Где ты ходишь столько дней? У тебя ноги отсохнут|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое время молчания — ты решил стать монахом?|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|Уже несколько дней, а ты всё в прятки играешь|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты пропал надолго, но мы тебя всё равно найдём|⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Сколько можно молчать? Уже неделя прошла (или больше)|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое отсутствие — это не отмазка, это халатность|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты где бродишь всё это долгое время?|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Нам нужен был ответ ещё позавчера, а тебя нет|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты как будто сквозь землю провалился на несколько дней|🤨
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты думал, если долго молчать, всё само рассосётся?|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Много дней прошло, а ты так и не понял свою ошибку|⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты игнорируешь нас уже долгое время — это война|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Где ты шлялся все эти долгие часы и дни?|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты не писал несколько дней, твоя совесть спит?|😒
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое время без вестей — ты нас за идиотов держишь?|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Уже столько времени, а ты даже "привет" не сказал|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|Твой долгий игнор уже не лезет ни в какие ворота|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Мы заждались тебя за несколько дней|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|За всё это долгое время ты не написал ни строчки|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты где? Уже несколько дней — это крайний срок|⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты что, в отпуск ушёл надолго без моего ведома?|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Сколько можно играть в молчанку? Время идёт|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|Такое долгое молчание может стоить тебе места|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Где ты пропадал всё это долгое время?|🤨
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты забыл о нас на несколько дней, как будто мы не люди|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое время без твоих сообщений — благодать, но пора работать|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты там заснул на долгие сутки?|😒
+2_PLUS_DAYS_INACTIVE|ANGRY|Несколько дней тишины — это твой личный рекорд, но он плохой|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты пропал надолго, я уже думал, ты уволился|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|За такие долгие периоды молчания расстреливают|⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Где тебя черти носят всё это время?|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты слишком долго не писал, это начинает бесить|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Уже долгое время, а ты всё молчишь в тряпочку|😒
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты решил взять тайм-аут на несколько дней?|🤨
+2_PLUS_DAYS_INACTIVE|ANGRY|Твоё долгое отсутствие не останется безнаказанным|💔
+2_PLUS_DAYS_INACTIVE|ANGRY|Мы тут горбатимся, а ты гуляешь уже который день|🫵
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты где? Долгое молчание — признак слабости|😑
+2_PLUS_DAYS_INACTIVE|ANGRY|За все эти дни ты мог написать роман, а написал ноль|👺
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты пропал так надолго, что мы уже сбились с пути|⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Несколько дней без связи — это приговор|😡
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты совсем страх потерял, раз пропал на такое долгое время? Пиши сейчас же!|👺😡📣
+
+2_PLUS_DAYS_INACTIVE|ANGRY|Ты где шлялся все эти долгие дни? У нас тут работа, а ты в прятки играешь!|👺😡💢
+2_PLUS_DAYS_INACTIVE|ANGRY|Несколько дней тишины? Ты совсем? Напиши сейчас же, пока я не приехал!|😡🫵⚠️
+2_PLUS_DAYS_INACTIVE|ANGRY|Долгое время без вестей — ты нас за идиотов держишь? Я уже обыскался тебя!|👿
+
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Ты не писал так долго, что я успел состариться|😒
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|За такое долгое время можно было построить дом, а ты не пишешь|😒
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Не смеши меня своей тишиной, это длится слишком долго|😑
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Ты не выходил на связь долго, я уже начал праздновать, но передумал|😰
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Ты пропал так надолго, что мы уже сбились с пути|⚠️
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Я уже сбился со счёту, сколько дней ты молчишь|😰
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Ты как призрак: появился и исчез на долгие дни|👺
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Ты не писал столько дней, что я начал молиться|😰
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Ты там в майнкрафте застрял на долгие дни?|🤨
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Такое долгое молчание может стоить тебе места|😡
+2_PLUS_DAYS_INACTIVE|DARK_HUMOR|Ты пропал так надолго, что я забыл причину твоего существования|😒
+
+# ==============================
+# КОРПУС 3: ВОЗВРАЩЕНИЕ ПОСЛЕ ПЕРЕРЫВА (ACTIVITY_RESUMED_AFTER_BREAK)
+# ==============================
+
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|О, проснулся.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Всё-таки вспомнил обо мне.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Я почти начал волноваться.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Продолжай удивлять.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Ладно, прощаю.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Конечно, можно было написать завтра… но ты почему-то здесь сегодня.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Удивительно. Ответственность всё-таки существует.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Я уже приготовил речь разочарования. Придётся отменить.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Ты лишил меня повода ворчать.|
+ACTIVITY_RESUMED_AFTER_BREAK|SARCASTIC|Если честно, я ожидал худшего.|
+
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Телефон заряжен. Палец работает. Что ещё тебе нужно?|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Пока ты думаешь, кто-то уже написал первым.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Иногда достаточно одного сообщения.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Напиши сейчас. Будущий ты скажет спасибо.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Не оставляй мысли на потом.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Одно сообщение может изменить весь день.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Перестань переписывать текст. Просто отправь.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Самое страшное уже позади — открыть чат.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Три точки печатаются красивее, чем молчание.|
+ACTIVITY_RESUMED_AFTER_BREAK|MESSAGING|Начни с простого «Привет».|
