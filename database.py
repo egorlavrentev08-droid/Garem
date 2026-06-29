@@ -314,3 +314,13 @@ async def initialize_database():
     await load_phrases_from_file("Content/phrases.txt")
     await load_phrases_from_file("Content/ranksms.txt")
     print("✅ SQLite база готова (файл dori.db)")
+
+async def get_total_phrases_count(trigger: str) -> int:
+    """Возвращает общее количество активных фраз для указанного триггера"""
+    async with aiosqlite.connect(DB_PATH) as db:
+        cursor = await db.execute(
+            "SELECT COUNT(*) FROM phrases WHERE trigger_type = ? AND is_active = 1",
+            (trigger,)
+        )
+        result = await cursor.fetchone()
+        return result[0] if result else 0
