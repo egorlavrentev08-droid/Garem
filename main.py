@@ -56,11 +56,7 @@ async def main():
         BotCommand(command="/name", description="Задать имя"),
         BotCommand(command="/me", description="Анкета"),
         BotCommand(command="/profile", description="Анкета"),
-        BotCommand(command="/shop", description="Магазин"),
-        BotCommand(command="/rank", description="Выдать ранг (админ)"),
-        BotCommand(command="/sms", description="Управление фразами (админ)"),
-        BotCommand(command="/coins", description="Управление коинами (админ)"),
-        BotCommand(command="/bypass", description="Выдать щит (админ)")
+        BotCommand(command="/shop", description="Магазин")
     ])
     
     # Запускаем планировщик для проверки бездействия
