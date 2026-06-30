@@ -33,6 +33,8 @@ from cofe import (
 # Загружаем переменные окружения
 load_dotenv()
 
+register_library_handlers(dp)  # ← ЭТО ДОЛЖНО БЫТЬ!
+
 # Настройка логирования
 logging.basicConfig(
     level=logging.INFO,
