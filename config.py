@@ -7,7 +7,7 @@ CHAT_ID = -1002497100583
 CHAT_LINK = "@Gar3mDi"
 
 # ID чата-библиотеки для фраз
-LIBRARY_CHAT_ID = -5363386810
+LIBRARY_CHAT_ID = 4310660617
 LIBRARY_CHAT_LINK = "@Libka_GD"  # ← ССЫЛКА НА ЧАТ-БИБЛИОТЕКУ
 
 # ID администраторов (твои айди)
