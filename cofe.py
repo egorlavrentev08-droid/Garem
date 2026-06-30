@@ -11,8 +11,13 @@ from config import ADMIN_IDS, LIBRARY_CHAT_ID, LIBRARY_CHAT_LINK, TRIGGER_SYMBOL
 
 logger = logging.getLogger(__name__)
 
-# Путь к файлу кеша
-CACHE_FILE = "phrases_cache.json"
+# ============================================================
+# ПУТЬ К ФАЙЛУ КЕША В ОБЩЕМ ХРАНИЛИЩЕ
+# ============================================================
+
+SHARED_DIR = os.environ.get("SHARED_DIR", "/app/shared")
+os.makedirs(SHARED_DIR, exist_ok=True)
+CACHE_FILE = os.path.join(SHARED_DIR, "phrases_cache.json")
 
 # Кеш фраз (в памяти)
 phrase_cache = {
@@ -29,7 +34,7 @@ phrase_cache = {
 # ============================================================
 
 def save_cache_to_file():
-    """Сохраняет кеш в JSON файл"""
+    """Сохраняет кеш в JSON файл в общем хранилище"""
     try:
         with open(CACHE_FILE, 'w', encoding='utf-8') as f:
             json.dump(phrase_cache, f, ensure_ascii=False, indent=2)
@@ -39,7 +44,7 @@ def save_cache_to_file():
 
 
 def load_cache_from_file():
-    """Загружает кеш из JSON файла"""
+    """Загружает кеш из JSON файла из общего хранилища"""
     global phrase_cache
     try:
         if os.path.exists(CACHE_FILE):
@@ -105,7 +110,7 @@ async def delete_message_after_delay(bot, chat_id: int, message_id: int, delay: 
 # ============================================================
 
 async def load_phrases_from_chat(bot):
-    """Загружает фразы из файла кеша"""
+    """Загружает фразы из файла кеша в общем хранилище"""
     global phrase_cache
     
     # Проверяем, существует ли файл
@@ -118,7 +123,6 @@ async def load_phrases_from_chat(bot):
         else:
             # Файл есть, но загрузить не получилось - логируем ошибку
             logger.warning(f"⚠️ Не удалось загрузить {CACHE_FILE}, но файл существует. Проверь формат JSON.")
-            # НЕ ПЕРЕСОЗДАЁМ ФАЙЛ!
             return 0
     
     # Если файла нет - создаём пустой
